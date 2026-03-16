@@ -36,6 +36,16 @@ mv $USER subfolder
 pwd
 rm /home/dino/Documents/GitHub/OS-Vjezbe/OS1-zadace/zadatak1/vjezba4/subfolder/$USER
 
+-- prebacivanje ove datoteke u folder od zadatka1 --
+cd ~
+cd Desktop
+mv Zadatak_1.txt /home/dino/Documents/GitHub/OS-Vjezbe/OS1-zadace/zadatak1/
+
+-- uplaod na GitHub --
+git add .
+git commit -m "Zadatak 1"
+git push
+
 
 
 
