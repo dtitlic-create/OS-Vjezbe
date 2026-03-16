@@ -1,0 +1,43 @@
+Upute za predaju zadatka
+bash
+mkdir OS1-zadace
+ls
+cd OS1-zadace
+mkdir zadatak1
+cd zadatak1
+-- Zadatak 1 --
+pwd
+ls
+mkdir vjezba1 && cd vjezba1
+touch README.md
+cd ..
+-- Zadatak 2 --
+mkdir vjezba2 && cd vjezba2 && touch file.txt
+cp file.txt file_copy.txt
+ls
+rm file.txt && cd ..
+rmdir vjezba2 -- > rmdir: failed to remove 'vjezbe2': Directory not empty
+-- Zadatak 3 --
+mkdir vjezba3 && cd vjezba3 && mkdir backup
+touch notes.txt && touch todo.txt && touch script.sh
+cp notes.txt backup && cp script.sh backup && cp todo.txt backup
+rm script.sh && ls
+cd backup
+mkdir $USER
+ls
+mv notes.txt $USER && mv script.sh $USER && mv todo.txt $USER
+-- zadatak 4 --
+cd ../..
+ls
+mkdir vjezba4 && cd vjezba4 && mkdir subfolder
+touch $HOSTNAME
+mv $HOSTNAME $USER
+mv $USER subfolder
+pwd
+rm /home/dino/Documents/GitHub/OS-Vjezbe/OS1-zadace/zadatak1/vjezba4/subfolder/$USER
+
+
+
+
+
+
