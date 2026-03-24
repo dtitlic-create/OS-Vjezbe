@@ -1,0 +1,34 @@
+ 349  clear
+  350  ls
+  351  cd zadatak2
+  352  mkdir -p vjezba_2/data
+  353  mkdir -p vjezba_2/backup
+  354  ls
+  355  tree
+  356  touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  357  tree
+  358  tree -a
+  359  cd vjezba_2/data
+  360  ls
+  361  echo 'console.log(Hello, woorld!)' > script.js
+  362  echo 'body { background-color: #f0f0f0; }' > style.css
+  363  echo 'VJEZBE=OS' > .env
+  364  cat script.js
+  365  cat style.css
+  366  cat .env
+  367  git status
+  368  cd ../..
+  369  ls
+  370  cd ../..
+  371  ls
+  372  cd ..
+  373  ls
+  374  git status
+  375  git add .
+  376  ls
+  377  cd OS-Vjezbe
+  378  git status
+  379  git add .
+  380  touch vjezba_2_history.txt
+  381  history
+
