@@ -1,0 +1,15 @@
+ 495  clear
+  496  cd ~
+  497  ls
+  498  cd Documents
+  499  ls
+  500  tree
+  501  ls -laS
+  502  ls -lS
+  503  ls -lSh
+  504  ls -lhS
+  505  tree -a
+  506  ls -h
+  507  ls -lh
+  508  history
+
