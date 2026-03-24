@@ -1,0 +1,25 @@
+ 440  git push
+  441  clear
+  442  ls
+  443  cd OS1-zadace
+  444  tree
+  445  cd zadatak2/vjezba_2/
+  446  tree
+  447  tree -a
+  448  rm data/script.js data/style.css
+  449  tree -a
+  450  cp backup/script.js data/script.js
+  451  tree -a
+  452  cp backup/style.css data/style.css
+  453  tree -a
+  454  rm -iv data/script.js data/style.css
+  455  -tree -a
+  456  tree -a
+  457  cp -n backup/. data/
+  458  cp -rn backup/. data/
+  459  tree -a
+  460  ls -At1 data/
+  461  ls -lAt1 data/
+  462  tree -a
+  463  history
+
