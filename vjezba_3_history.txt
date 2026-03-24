@@ -1,0 +1,26 @@
+407  clear
+  408  ls
+  409  cd OS1-zadace
+  410  ls
+  411  cd zadatak2
+  412  ls
+  413  tree
+  414  cp -r data/. backup
+  415  cp -r data/ . backup
+  416  ls
+  417  cp -r vjezba_2/data/. vjezba_2/backup
+  418  tree
+  419  tree -a
+  420  cd vjezbe2/data
+  421  cd vjezbe_2/data
+  422  cd vjezba_2/data
+  423  ls -la ../backup
+  424  cd ../../..
+  425  cd ..
+  426  git add .
+  427  git commit -m vjezba3
+  428  git push
+  429  ls
+  430  touch vjezba_3_history.txt
+  431  history
+
